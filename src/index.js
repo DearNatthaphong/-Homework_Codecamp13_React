@@ -25,8 +25,8 @@ import reportWebVitals from './reportWebVitals';
 // ให้ render หน้า web เพื่อแสดงค่า BMI ใน tag <h1>
 const height = +prompt('Height (cm) ?');
 const weight = +prompt('Weight (kg) ?');
-function calcBMI(height, weight) {
-  const result = weight / (height / 100) ** 2;
+function calcBMI(h, w) {
+  const result = w / (h / 100) ** 2;
   return result.toFixed(2);
 }
 const element = (
