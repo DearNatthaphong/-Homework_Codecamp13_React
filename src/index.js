@@ -1,8 +1,24 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
+import React from 'react'; // library name
+import ReactDOM from 'react-dom/client'; // folder: react-dom, file: client
 import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import App from './App'; // ./App.js
+import reportWebVitals from './reportWebVitals'; // ./reportWebVitals.js
+
+// // Default Import
+// import abcd from './import-export/sayHi';
+
+// // Name Import ชื่อต้องตรงกับที่ export ออกมา
+// import { month as mth } from './import-export/sayHi';
+
+// import { month, sayHello, day, year } from './import-export/sayHi';
+// // import everything as object
+// import * as obj from './import-export/sayHi';
+
+// obj.sayHello();
+// obj.year;
+
+// abcd();
+// console.log(month);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
